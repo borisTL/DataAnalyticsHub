@@ -55,3 +55,24 @@ This project is designed to analyze and visualize medical examination data using
    - Produces a heat map that shows the correlations between different features in the dataset, such as blood pressure, BMI, age, and cardiovascular disease.
 
 ---
+# [Time Series Data Visualizer]()
+
+This project is a Python-based tool that analyzes and visualizes time series data using Pandas, Matplotlib, and Seaborn. The dataset represents daily page views of the freeCodeCamp Forum, and this tool helps visualize trends, monthly and yearly patterns, and the distribution of values over time.
+
+## Project Features
+
+1. **Data Cleaning**:
+   - The dataset is cleaned by removing the top 2.5% and bottom 2.5% of the data to filter out anomalies and extreme values.
+
+2. **Visualizations**:
+   - **Line Plot**: Shows daily page views over time to visualize the overall trend.
+   - **Bar Plot**: Displays the average page views for each month grouped by year.
+   - **Box Plot**: Visualizes the distribution of page views over time, both yearly and monthly, to highlight trends and seasonality.
+
+3. **Functions**:
+   - `draw_line_plot()`: Generates a line plot showing daily page views.
+   - `draw_bar_plot()`: Generates a bar plot showing monthly average page views.
+   - `draw_box_plot()`: Generates box plots to visualize the distribution of data by year and by month.
+
+---
+
