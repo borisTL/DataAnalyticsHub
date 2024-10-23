@@ -75,4 +75,37 @@ This project is a Python-based tool that analyzes and visualizes time series dat
    - `draw_box_plot()`: Generates box plots to visualize the distribution of data by year and by month.
 
 ---
+# [Sea Level Predictor](https://github.com/borisTL/DataAnalyticsHub/tree/main/Sea%20Level%20Predictor)
+
+This project uses historical data on global sea levels to predict future sea level rise up to the year 2050. The project applies linear regression analysis to two different time periods: from 1880 to the most recent year in the dataset and from 2000 to the most recent year. It visualizes both predictions using a scatter plot with lines of best fit.
+
+## Project Features
+
+1. **Data Import**:
+   - The dataset is imported from `epa-sea-level.csv`, which contains historical sea level data from 1880 to 2014 provided by the EPA (Environmental Protection Agency).
+
+2. **Scatter Plot**:
+   - A scatter plot is created to visualize the actual sea level data points, with the `Year` on the x-axis and `CSIRO Adjusted Sea Level` on the y-axis.
+
+3. **Lines of Best Fit**:
+   - The first line of best fit is created using linear regression on the entire dataset (from 1880 to the most recent year).
+   - The second line of best fit is created using data from the year 2000 onwards and extended to predict sea levels up to the year 2050.
+
+4. **Visualizations**:
+   - The plot includes two lines of best fit to visualize different trends in sea level rise.
+   - Labels and a title are added to enhance readability.
+---
+# [Web Scraping Book Analysis](https://github.com/borisTL/DataAnalyticsHub/tree/main/Web%20Scraping)
+
+## Overview
+
+This project is a web scraping tool that gathers data about books from online sources and analyzes it. The main goal is to extract relevant information such as book titles, authors, ratings, and reviews to perform data analysis and generate insights.
+## Features
+
+- **Web Scraping**: Collects data from various book-related websites.
+- **Data Cleaning**: Processes the scraped data to remove inconsistencies and ensure accuracy.
+- **Data Analysis**: Analyzes the data to provide insights, such as popular genres, top-rated books, and more.
+- **Visualization**: Creates visual representations of the analysis results using libraries like Matplotlib and Seaborn
+---
+
 
