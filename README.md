@@ -32,3 +32,26 @@ This project is a Python-based analysis tool that examines demographic data extr
 - **Highest-Earning Country**: Finds the country with the highest percentage of people earning more than 50K.
 - **Popular Occupations in India**: Identifies the most popular occupation among those who earn more than 50K in India.
 ---
+# [Medical Data Visualizer](https://github.com/borisTL/DataAnalyticsHub/tree/main/Medical%20Data%20Visualizer)
+
+This project is designed to analyze and visualize medical examination data using Python, Pandas, and Seaborn. It performs data cleaning, generates categorical plots, and creates a heat map to help visualize the correlations between different health-related variables.
+
+## Project Features
+
+1. **Data Cleaning**:
+   - Removes incorrect entries where diastolic pressure is higher than systolic pressure.
+   - Filters out patients with extreme values for height and weight (below the 2.5th or above the 97.5th percentile).
+
+2. **Overweight Column**:
+   - A new column is added to indicate whether a patient is overweight based on their Body Mass Index (BMI). A BMI greater than 25 is classified as overweight.
+
+3. **Normalization**:
+   - The data for cholesterol and glucose levels are normalized so that 0 represents normal values and 1 represents above-normal values.
+
+4. **Categorical Plot**:
+   - Generates a categorical plot to display the distribution of several health indicators (cholesterol, glucose, smoking, alcohol consumption, activity level, and overweight) for patients with and without cardiovascular disease.
+
+5. **Heat Map**:
+   - Produces a heat map that shows the correlations between different features in the dataset, such as blood pressure, BMI, age, and cardiovascular disease.
+
+---
