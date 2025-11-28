@@ -5,7 +5,7 @@ The report highlights salaries, job roles, programming languages, career entry d
 
 ## Dashboard Preview
 
-![Dashboard Preview](Data%20Professional%20Survey%20Dashboard%20(Power%20BI)/screenshots/Screenshot%202025-11-28%20074942.png)
+![Dashboard Preview](screenshots/Screenshot%202025-11-28%20074942.png)
 
 
 
