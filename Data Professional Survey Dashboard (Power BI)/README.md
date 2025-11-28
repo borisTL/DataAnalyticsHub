@@ -30,7 +30,6 @@ The report highlights salaries, job roles, programming languages, career entry d
 
 ```text
 ├─ dashboard.pbix
-├─ data
 └─ screenshots/
       └─ dashboard.png
 
